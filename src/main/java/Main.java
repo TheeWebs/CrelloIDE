@@ -35,6 +35,7 @@ void main() {
     pane.setResizeWeight(0.15);
     frame.add(pane);
 
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setVisible(true);
 
 }
